@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+:root{
+    --primary-color:#FF5400;
+    --secondary-color:#5A5A5D;
+    --primary-font-weight: 800;
+    --secondary-font-weight: 400;
+    --text-black: #000;
+    --text-white: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Mulish', sans-serif;
+}
+header{
+    width: 100%;
+    max-width: 1400px;
+}
+nav{
+    height: 80px;
+    padding: 0 135px;   
+}
+nav span{
+    color: var(--primary-color);
+}
+label.logo{
+    color: var(--text-black);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: var(--primary-font-weight);
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 20px;
+}
+nav ul li a{
+    color: var(--text-black);
+    font-size: 17px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.checkbtn{
+    font-size: 30px;
+    color: var(--text-black);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
