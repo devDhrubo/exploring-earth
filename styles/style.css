@@ -75,7 +75,7 @@ nav ul li a {
   border-radius: 8px;
   max-width: 1170px;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url(/Images/hero.png);
+    url(./Images/hero.png);
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -292,7 +292,7 @@ nav ul li a {
   margin: 20px;
 }
 .deals-1 {
-  background-image: url("/Images/Group\ 39.png");
+  background-image: url("./Images/Group\ 39.png");
   max-width: 1170px;
   height: 500px;
   padding: 0 135px;
@@ -338,7 +338,7 @@ nav ul li a {
   margin-top: 20px;
 }
 .deals-2 {
-  background-image: url("/Images/Group\ 40.png");
+  background-image: url("./Images/Group\ 40.png");
   max-width: 1170px;
   height: 500px;
   padding: 0 135px;
@@ -350,7 +350,7 @@ nav ul li a {
   margin-left: -50px;
 }
 .deals-3 {
-  background-image: url("/Images/Group\ 39.png");
+  background-image: url("./Images/Group\ 39.png");
   max-width: 1170px;
   height: 500px;
   padding: 0 135px;
