@@ -182,6 +182,46 @@ nav ul li a {
   gap: 15px;
   margin-top: 10px;
 }
+.tour-type{
+  max-width: 1170px;
+  padding: 0 135px;
+}
+.tour-type h2{
+  font-size: 40px;
+  color: #131318;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 100px;
+}
+.tour-type p{
+  text-align: center;
+  font-size: 16px;
+  color: var(--secondary-color);
+  font-weight: 400;
+  margin: 20px;
+}
+.type-content{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.types{
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  padding: 50px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.types i{
+  font-size: 40px;
+  color: var(--primary-color);
+}
+.types p{
+  font-size: 20px;
+  font-weight: 800;
+}
 .choose {
   max-width: 1170px;
   padding: 0 135px;
@@ -215,6 +255,7 @@ nav ul li a {
 .card-1 i {
   font-size: 30px;
   padding: 50px;
+  color: var(--primary-color);
 }
 .card-1 h2 {
   color: #131318;
@@ -239,6 +280,7 @@ nav ul li a {
 .card-2 i {
   font-size: 30px;
   padding: 50px;
+  color: var(--primary-color);
 }
 .card-2 h2 {
   color: #131318;
@@ -265,6 +307,7 @@ nav ul li a {
 .card-single i {
   font-size: 30px;
   padding: 50px;
+  color: var(--primary-color);
 }
 .card-single h2 {
   color: #131318;

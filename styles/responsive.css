@@ -169,6 +169,9 @@
   .newsletter img{
     margin-left: 20px;
   }
+  .newsletter input{
+    width: 90%;
+  }
   .discount{
     margin-left: -125px;
   }
