@@ -182,9 +182,19 @@
      background: 100%;
      margin-left: 50px;
   }
-
-
-
+  .type-content{
+    flex-direction: column;
+  }
+  .tour-type{
+    padding: 0;
+    margin-left: 30px;
+  }
+.types{
+  width: 300px;
+}
+.types i{
+  margin-left: 70px;
+}
 
   
 }

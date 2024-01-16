@@ -543,6 +543,7 @@ footer hr {
 footer i {
   font-size: 25px;
   margin: 15px;
+  cursor: pointer;
 }
 .reserve {
   margin-top: 30px;
