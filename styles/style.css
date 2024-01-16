@@ -168,13 +168,19 @@ nav ul li a {
 .image-gallery img {
   width: 100%;
 }
-.image-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
+.first-row{
+  display: flex;
+  gap: 15px;
 }
-.big {
-  grid-column: auto / span 2;
+.second-row{
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+.third-row{
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
 }
 .choose {
   max-width: 1170px;
@@ -405,9 +411,9 @@ nav ul li a {
   display: flex;
   gap: 50px;
 }
-.newsletter img{
-    height: 400px;
-    width: 100%;
+.newsletter img {
+  height: 400px;
+  width: 100%;
 }
 .newsletter h2 {
   font-size: 30px;
@@ -444,37 +450,37 @@ nav ul li a {
   width: 100%;
   padding: 15px 20px;
 }
-footer{
-    text-align: center;
-    margin-top: 100px;
-    background: rgba(19, 19, 24, 0.05);
-    height: 200px;
-    padding: 100px 0;
+footer {
+  text-align: center;
+  margin-top: 100px;
+  background: rgba(19, 19, 24, 0.05);
+  height: 200px;
+  padding: 100px 0;
 }
-footer span{
-    color: var(--primary-color);
+footer span {
+  color: var(--primary-color);
 }
-footer h1{
-    font-size: 30px;
-    font-weight: 800;
-    margin-bottom: 20px;
+footer h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
-footer p{
-    font-size: 16px;
-    color: var(--secondary-color);
-    font-weight: 400;
-    margin-bottom: 20px;
+footer p {
+  font-size: 16px;
+  color: var(--secondary-color);
+  font-weight: 400;
+  margin-bottom: 20px;
 }
-footer hr{
-    width: 70%;
-    margin-left: 214px;
-    text-align: center;
-    margin-bottom: 20px;
+footer hr {
+  width: 70%;
+  margin-left: 214px;
+  text-align: center;
+  margin-bottom: 20px;
 }
-footer i{
-    font-size: 25px;
-    margin: 15px;
+footer i {
+  font-size: 25px;
+  margin: 15px;
 }
-.reserve{
-    margin-top: 30px;
+.reserve {
+  margin-top: 30px;
 }
