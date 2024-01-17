@@ -168,6 +168,26 @@ nav ul li a {
 .image-gallery img {
   width: 100%;
 }
+.child{
+  position: relative;
+  cursor: pointer;
+  display: block;
+}
+.overlay{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.overlay p{
+  color: var(--text-white);
+  font-size: 20px;
+  font-weight: 700;
+}
 .first-row{
   display: flex;
   gap: 15px;
